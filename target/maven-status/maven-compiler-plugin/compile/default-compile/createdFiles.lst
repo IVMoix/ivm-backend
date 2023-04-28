@@ -18,7 +18,6 @@ com\portfolio\ivm\Repository\Rhys.class
 com\portfolio\ivm\Controller\CEducacion.class
 com\portfolio\ivm\Security\jwt\JwtProvider.class
 com\portfolio\ivm\Repository\IPersonaRepository.class
-.netbeans_automatic_build
 com\portfolio\ivm\Security\Enums\RolNombre.class
 com\portfolio\ivm\Dto\dtoEducacion.class
 com\portfolio\ivm\Entity\Persona.class
