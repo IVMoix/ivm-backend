@@ -3,6 +3,7 @@ package com.portfolio.ivm.Security;
 import com.portfolio.ivm.Security.Service.UserDetailsImpl;
 import com.portfolio.ivm.Security.jwt.JwtEntryPoint;
 import com.portfolio.ivm.Security.jwt.JwtTokenFilter;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -20,6 +21,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 @Configuration
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)
+@RequiredArgsConstructor
 public class MainSecurity extends WebSecurityConfigurerAdapter{
     @Autowired
     UserDetailsImpl userDetailsService;
