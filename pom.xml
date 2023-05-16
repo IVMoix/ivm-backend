@@ -101,6 +101,12 @@
             <version>5.5.1</version>
             <type>jar</type>
         </dependency>
+        <dependency>
+            <groupId>software.amazon.awssdk</groupId>
+            <artifactId>s3</artifactId>
+            <version>2.16.100</version>
+        </dependency>
+
     </dependencies>
 
     <build>
