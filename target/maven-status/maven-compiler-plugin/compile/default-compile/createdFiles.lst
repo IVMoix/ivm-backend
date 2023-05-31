@@ -11,6 +11,7 @@ com\portfolio\ivm\Security\Service\UsuarioService.class
 com\portfolio\ivm\Controller\CHys.class
 com\portfolio\ivm\Security\Service\UserDetailsImpl.class
 com\portfolio\ivm\Service\Seducacion.class
+com\portfolio\ivm\Dto\dtoPersona.class
 com\portfolio\ivm\Security\Entity\Usuario.class
 com\portfolio\ivm\Service\SExperiencia.class
 com\portfolio\ivm\Entity\Educacion.class
@@ -21,7 +22,6 @@ com\portfolio\ivm\Repository\IPersonaRepository.class
 com\portfolio\ivm\Security\Enums\RolNombre.class
 com\portfolio\ivm\Dto\dtoEducacion.class
 com\portfolio\ivm\Entity\Persona.class
-com\portfolio\ivm\Interface\IPersonaService.class
 com\portfolio\ivm\Security\Entity\Rol.class
 com\portfolio\ivm\Security\jwt\JwtTokenFilter.class
 com\portfolio\ivm\Security\Dto\NuevoUsuario.class
